@@ -1,0 +1,118 @@
+/*!Convertido de ".scss" a ".css"*/
+$colorP: gray;
+$colorS: #D0CEBA;
+$colorT: white;
+
+body{
+    margin: 0;
+    background-color: #{$colorS};
+}
+
+span, h1, h2, .mayus{
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: normal;
+}
+
+header{
+    width: 100%;
+    background-color: #{$colorP};
+    margin-bottom: 30px;
+
+    img{
+        margin-left: 15px;
+        width: 4vh;
+    }
+
+    h1{
+        display: inline-block;
+        color: white;
+        margin: 10px 0;
+    }
+}
+
+main{
+    display: grid;
+    grid-template-columns: 45vw 30vw;
+    grid-template-rows: 67vh;
+    grid-auto-flow: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: #{$colorS};
+    margin-bottom: 30px;
+
+    .pokemon{
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+        text-align: center;
+
+        .namePokemon{
+            width: 75%;
+            background-color: white;
+            padding: 5px;
+            margin: 0 auto;
+            border-radius: 15px;
+
+            h2{
+                display: inline-block;
+            }
+            .imgType{
+                width: 3vw;
+            }
+        }
+
+        .imgPokemon{
+            width: 80%;
+        }
+    }
+
+    .infoPokemon{
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+        background-color: white;
+        padding: 25px 20px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, 50%);
+        grid-template-columns: repeat(auto-fit, 50%);
+
+        .power, .level, .type, .hability, .height, .weight{
+            text-align: center
+        }
+    }
+}
+
+footer{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    padding: 5px 0;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    h3{
+        text-transform: uppercase;
+        display: inline-block;
+        padding-right: 55px;
+    }
+
+    img{
+        width: 80px;
+        margin: 10px 20px;
+        opacity:0.7;
+    }
+
+    img:hover{
+        opacity: 1;
+        background-color: #{$colorP};
+        border-radius: 45%;
+    }
+}

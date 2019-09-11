@@ -1,0 +1,105 @@
+/*!Convertido de ".scss" a ".css"*/
+body {
+  margin: 0;
+  background-color: #D0CEBA;
+}
+
+span, h1, h2, .mayus {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+header {
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 30px;
+}
+header img {
+  margin-left: 15px;
+  width: 4vh;
+}
+header h1 {
+  display: inline-block;
+  color: white;
+  margin: 10px 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 45vw 30vw;
+  grid-template-rows: 67vh;
+  grid-auto-flow: column;
+  justify-content: center;
+  justify-items: center;
+  background-color: #D0CEBA;
+  margin-bottom: 30px;
+}
+main .pokemon {
+  grid-row: 1/1;
+  grid-column: 1/1;
+  text-align: center;
+}
+main .pokemon .namePokemon {
+  width: 75%;
+  background-color: white;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+main .pokemon .namePokemon h2 {
+  display: inline-block;
+}
+main .pokemon .namePokemon .imgType {
+  width: 3vw;
+}
+main .pokemon .imgPokemon {
+  width: 80%;
+}
+main .infoPokemon {
+  grid-row: 1/1;
+  grid-column: 2/2;
+  background-color: white;
+  padding: 25px 20px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, 50%);
+  grid-template-columns: repeat(auto-fit, 50%);
+}
+main .infoPokemon .power, main .infoPokemon .level, main .infoPokemon .type, main .infoPokemon .hability, main .infoPokemon .height, main .infoPokemon .weight {
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  padding: 5px 0;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer h3 {
+  text-transform: uppercase;
+  display: inline-block;
+  padding-right: 55px;
+}
+footer img {
+  width: 80px;
+  margin: 10px 20px;
+  opacity: 0.7;
+}
+footer img:hover {
+  opacity: 1;
+  background-color: gray;
+  border-radius: 45%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
