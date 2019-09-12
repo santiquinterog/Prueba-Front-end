@@ -127,6 +127,7 @@ footer {
     header{
         margin-bottom: 10px;
         text-align: center;
+        margin-bottom: 28px;
 
         img{
             width: 3vh;
@@ -239,8 +240,6 @@ footer {
     }
 }
 
-
-
 @media screen and (max-width: 700px) and (min-width: 450px){
     main{
         .pokemon{
@@ -249,5 +248,12 @@ footer {
         .infoPokemon{
             width: 60%;
         }
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 700px){
+
+    header{
+        margin-bottom: 70px;
     }
 }

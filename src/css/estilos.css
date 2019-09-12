@@ -109,6 +109,7 @@ footer .footer img:hover {
   header {
     margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 28px;
   }
   header img {
     width: 3vh;
@@ -197,6 +198,11 @@ footer .footer img:hover {
   }
   main .infoPokemon {
     width: 60%;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 700px) {
+  header {
+    margin-bottom: 70px;
   }
 }
 
